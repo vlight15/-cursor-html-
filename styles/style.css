@@ -1,0 +1,61 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #e0f7fa;
+    color: #00796b;
+}
+
+#start-button {
+    background-color: #00796b;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+#start-button:hover {
+    background-color: #004d40;
+}
+
+#game-area {
+    width: 400px;
+    height: 400px;
+    border: 2px solid #000;
+    position: relative;
+    margin: 0 auto;
+    background-color: #f0f0f0;
+}
+
+.snake {
+    background-color: #4caf50;
+    position: absolute;
+    box-sizing: border-box;
+}
+
+.food {
+    background-color: #ff5722;
+    position: absolute;
+}
+
+.obstacle {
+    background-color: black;
+    position: absolute;
+}
+
+#leaderboard {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.difficulty-container {
+    border: 1px solid #00796b;
+    background-color: #ffffff;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 30%;
+} 
